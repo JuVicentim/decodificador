@@ -1,4 +1,3 @@
-// Função para criptografar o texto
 function encriptar() {
   let texto = document.getElementById("texto").value;
   let textoCriptografado = texto
@@ -14,7 +13,6 @@ function encriptar() {
     "Seu texto foi criptografado com sucesso!";
 }
 
-// Função para descriptografar o texto
 function desencriptar() {
   let texto = document.getElementById("texto").value;
   let textoDescriptografado = texto
@@ -30,7 +28,6 @@ function desencriptar() {
     "Seu texto foi descriptografado com sucesso!";
 }
 
-// Função para copiar o texto
 function copiarTexto() {
   let mensagem = document.getElementById("mensagem");
   mensagem.select();
